@@ -1,0 +1,139 @@
+/** @format */
+@import url("fonts.css");
+body {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  font-family: "montserrat";
+  letter-spacing: 2px;
+  transition: all ease-in-out 300ms;
+}
+h1 {
+  display: flex;
+  color: #f3f6f8;
+  font-family: "EngagementR";
+  letter-spacing: 7px;
+  font-size: 60px;
+}
+small {
+  text-transform: capitalize;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 9px;
+  left: 60px;
+  font-family: "montserratL";
+  color: #f3f6f8 !important;
+}
+h1 span {
+  margin: 0 10px;
+}
+.color {
+  color: #01545f;
+}
+.container {
+  height: 330px;
+  width: 500px;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  background-color: #04615c;
+  box-shadow: 0 0 20px rgba(3, 95, 83, 0.658);
+  border-radius: 4px;
+  position: relative;
+}
+textarea,
+button {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 10px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+textarea:focus,
+button:active {
+  box-shadow: 0 0 10px rgb(43, 70, 68);
+}
+textarea {
+  letter-spacing: 2px;
+  font-family: "montserratm";
+  resize: none;
+  height: 170px;
+  font-size: 14px;
+  padding: 20px;
+  color: #f3f6f8;
+  background-color: rgba(11, 165, 165, 0.363);
+}
+::placeholder {
+  color: #f3f6f8;
+}
+
+button {
+  letter-spacing: 0.6px;
+  text-align: center;
+  font-family: "montserrat";
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f3f6f8;
+  background-color: rgb(177, 29, 3);
+}
+
+#results {
+  width: 70%;
+  margin: 0 auto 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+p {
+  display: inline;
+  margin: 0 10px;
+  color: #ff9f51;
+  font-weight: 600;
+}
+.num {
+  padding: 4px 8px;
+  font-weight: bold;
+}
+.letter {
+  color: #f3f6f8;
+}
+.word {
+  color: blanchedalmond;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90vw;
+    height: 300px;
+  }
+  textarea {
+    height: 130px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  button {
+    font-size: 13px;
+  }
+  #results {
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  p {
+    margin: 0 0 0 9px;
+  }
+  h1 {
+    font-size: 40px;
+    letter-spacing: normal;
+  }
+  small {
+    left: 53px;
+  }
+}

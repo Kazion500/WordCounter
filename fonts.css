@@ -1,0 +1,18 @@
+/** @format */
+
+@font-face {
+  src: url("fonts/Engagement-Regular.ttf");
+  font-family: "EngagementR";
+}
+@font-face {
+  src: url("fonts/Montserrat-ExtraBold.ttf");
+  font-family: "Montserrat";
+}
+@font-face {
+  src: url("fonts/Montserrat-Medium.ttf");
+  font-family: "MontserratM";
+}
+@font-face {
+  src: url("fonts/Montserrat-Light.ttf");
+  font-family: "MontserratL";
+}
