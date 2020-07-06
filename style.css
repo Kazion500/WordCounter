@@ -34,7 +34,7 @@ h1 span {
   color: #01545f;
 }
 .container {
-  height: 330px;
+  height: 350px;
   width: 500px;
   max-width: 500px;
   text-align: center;
@@ -110,19 +110,21 @@ p {
 }
 @media (max-width: 500px) {
   .container {
-    width: 90vw;
-    height: 300px;
+    width: 95vw;
+    height: 330px;
   }
   textarea {
+    width: 95%;
     height: 130px;
     font-size: 13px;
     letter-spacing: 1px;
   }
   button {
     font-size: 13px;
+    width: 95%;
   }
   #results {
-    max-width: 100%;
+    width: 100%;
     font-size: 14px;
     font-weight: 500;
   }
@@ -134,6 +136,7 @@ p {
     letter-spacing: normal;
   }
   small {
-    left: 53px;
+    left: 20px;
+    bottom: 20px;
   }
 }
