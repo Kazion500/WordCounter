@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <title>W-CharCounter</title>
+    <link rel="shortcut icon" type="image/png" href="1.png" />
   </head>
   <body>
     <h1>
